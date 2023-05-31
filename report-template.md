@@ -38,9 +38,9 @@ I would spend more time in  exploratory data analysis before any form of trainin
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|hpo1|hpo2|hpo3|score|
 |--|--|--|--|--|
-|initial|default|default|GBM : num_boost_round, num_leaves, learning_rate, feature_fraction_bynode, saved_feature_importance_type|1.78883|
-|add_features|default|default|CAT : iterations, learning_rate, depth|1.68304|
-|hpo|default|default|XGB : n_estimators, max_depth, eta , alpha, tree_method|1.72506|
+|initial|default|default|default|1.78883|
+|add_features|default|default|default|1.68304|
+|hpo|GBM : num_boost_round, num_leaves, learning_rate, feature_fraction_bynode, saved_feature_importance_type|CAT : iterations, learning_rate, depth|XGB : n_estimators, max_depth, eta , alpha, tree_method|1.72506|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
